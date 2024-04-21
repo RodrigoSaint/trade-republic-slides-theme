@@ -1,0 +1,110 @@
+@font-face {
+  font-family: traderepublic;
+  src: url(./TradeRepublicSans-Display-500.858a205c.woff);
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Trade Republic Sans Display;
+  font-weight: 500;
+  src: url(./TradeRepublicSans-Display-500.858a205c.woff) format("woff")
+}
+@font-face {
+  font-display: swap;
+  font-family: Trade Republic Sans Display;
+  font-weight: 680;
+  src: url(./TradeRepublicSans-Display-680.02f9b0c5.woff) format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: Trade Republic Sans Display;
+  font-weight: 740;
+  src: url(./TradeRepublicSans-Display-740.961f4a1c.woff) format("woff");
+}
+
+
+body,
+.reveal .slide-number {
+  font-size: 1.125rem;
+  letter-spacing: 0.0125rem;
+  font-family: "Trade Republic Sans Display";
+}
+
+.drop > * {
+  align-items: start !important;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  margin-bottom: 0.75em;
+}
+
+.slide {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+
+.slide::before {
+  position: absolute;
+  content: url(./trade-republic.svg);
+  z-index: 100;
+  top: 2em;
+  left: 2em;
+  width: 320px;
+}
+
+pre {
+  margin: 0;
+}
+
+code {
+  text-align: left;
+  border-radius: 0.5em;
+  background-color: #676a70;
+  width: 900px;
+  padding: 0.1em 0.25em !important;
+  line-height: 1.3em;
+  max-height: 500px;
+}
+
+.code-wrapper code {
+  padding: 1em 1em 0 1em !important;
+}
+
+p {
+  max-width: 800px;
+  text-align: left;
+  line-height: 1.3333333333;
+}
+
+p + p {
+  margin-top: -0.25em;
+}
+
+a {
+  color: #0078d7;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 1em;
+}
